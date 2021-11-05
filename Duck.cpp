@@ -16,6 +16,18 @@ void Duck::performQuack()
 	quackBehavior->quack();
 }
 
+void Duck::setQuackBehavior(QuackBehavior* qb)
+{
+	delete quackBehavior;
+	quackBehavior = qb;
+}
+
+void Duck::setFlyBehavior(FlyBehavior* fb)
+{
+	delete flyBehavior;
+	flyBehavior = fb;
+}
+
 void Duck::swim()
 {
 	std::cout << "all ducks can swim" << std::endl;

@@ -7,6 +7,7 @@ int main()
     mallard->display();
     mallard->performFly();
     mallard->performQuack();
+    mallard->swim();
 
 
     delete mallard;
