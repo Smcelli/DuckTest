@@ -1,5 +1,6 @@
 #include <iostream>
 #include "DuckMallard.h"
+#include "FlyOnPlane.h"
 int main()
 {
     Duck* mallard = new DuckMallard;
@@ -8,6 +9,8 @@ int main()
     mallard->performFly();
     mallard->performQuack();
     mallard->swim();
+    mallard->setFlyBehavior(new FlyOnPlane);
+    mallard->performFly();
 
 
     delete mallard;

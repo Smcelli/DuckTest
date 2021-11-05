@@ -144,6 +144,7 @@
     <ClCompile Include="DuckTest.cpp" />
     <ClCompile Include="FlyBehavior.cpp" />
     <ClCompile Include="FlyDoesNot.cpp" />
+    <ClCompile Include="FlyOnPlane.cpp" />
     <ClCompile Include="FlyWithWings.cpp" />
     <ClCompile Include="QuackBehavior.cpp" />
     <ClCompile Include="QuackDoesNot.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="DuckMallard.h" />
     <ClInclude Include="FlyBehavior.h" />
     <ClInclude Include="FlyDoesNot.h" />
+    <ClInclude Include="FlyOnPlane.h" />
     <ClInclude Include="FlyWithWings.h" />
     <ClInclude Include="QuackBehavior.h" />
     <ClInclude Include="QuackDoesNot.h" />
